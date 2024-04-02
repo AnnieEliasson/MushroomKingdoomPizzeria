@@ -19,7 +19,7 @@ const Preview = ({ pizza, setPizza }: PropList) => {
         <ul>
           <li className="title">{pizza.name}</li>
           {pizza.toppings.map((t) => {
-            return <Checkboxes t={t} pizza={pizza} setPizza={setPizza} />;
+            return <Checkboxes key={t.name} t={t} pizza={pizza} setPizza={setPizza} />;
           })}
           <li className="extra">
             <p>Add extra topping?</p>

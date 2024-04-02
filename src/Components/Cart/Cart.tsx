@@ -23,7 +23,7 @@ const Cart = () => {
           </button>
         </li>
         {state.pizzas.map((p) => {
-          return <CartItem p={p} />;
+          return <CartItem key={p.id} p={p} />;
         })}
         <li>
           <p>
