@@ -1,12 +1,8 @@
 import { useState } from "react";
 import menu from "../../menu.json";
 import Preview from "../Preview/Preview";
-import uuid from "react-uuid"
-
-type Topping = {
-  name: string;
-  price: number;
-};
+import uuid from "react-uuid";
+import { Pizza, Topping } from "../Types";
 
 const calcPrice = (topping: { name: string }[]) => {
   let result;
@@ -27,12 +23,6 @@ const calcPrice = (topping: { name: string }[]) => {
   return totalPrice;
 };
 
-export type Pizza = {
-  id: string;
-  name: string;
-  toppings: Topping[];
-  price: number;
-};
 const Menu = () => {
   const [pizza, setPizza] = useState<Pizza>({
     id: uuid(),
@@ -41,7 +31,7 @@ const Menu = () => {
     price: 0,
   });
 
-  const handleclick = (e: any) => {
+  const handleClick = (e: any) => {
     const name = e.target.innerText;
     const toppings: Topping[] = [];
     let price = menu.priceList.base;
@@ -64,7 +54,7 @@ const Menu = () => {
         {menu.pizzas.map((p) => {
           return (
             <li className="menu-item" key={p.name}>
-              <b className="title" onClick={handleclick}>
+              <b className="title" onClick={handleClick}>
                 {p.name}
               </b>
               <ul className="topping-items">

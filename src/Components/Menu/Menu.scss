@@ -1,0 +1,60 @@
+.Menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
+  .Menu-list {
+    max-width: 1020px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .topping-items {
+    width: 100%;
+  }
+}
+
+.title {
+  cursor: pointer;
+  color: rgba(208, 26, 26, 0.497);
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px black, 2px 2px 1px rgb(208, 26, 26);
+}
+
+.coins {
+  color: yellow;
+}
+
+.menu-item {
+  list-style: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #434343;
+  /* background: linear-gradient(120deg, rgba(40, 64, 46, 0.658), rgba(0, 0, 0, 0.798)); */
+  padding: 20px;
+  padding-bottom: 40px;
+  width: 500px;
+  transition: 0.7s;
+  font-size: 1.2rem;
+  box-shadow: 2px 2px 5px black, inset 1px 1px 5px white,
+    inset -1px -1px 10px black;
+  position: relative;
+  letter-spacing: 1px;
+
+  .bottom-row {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin-top: 20px;
+    color: rgb(224, 224, 224);
+    letter-spacing: 0;
+  }
+}
