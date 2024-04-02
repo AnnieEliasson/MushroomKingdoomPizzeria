@@ -32,6 +32,12 @@ const Menu = () => {
   });
 
   const handleClick = (e: any) => {
+    const checkboxes = document.querySelectorAll(
+      ".checkbox"
+    ) as NodeListOf<HTMLInputElement>;
+    checkboxes.forEach((b) => {
+      b.checked = true;
+    });
     const name = e.target.innerText;
     const toppings: Topping[] = [];
     let price = menu.priceList.base;
