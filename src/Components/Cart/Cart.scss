@@ -1,0 +1,90 @@
+.Cart_btn{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-image: url("https://www.freeiconspng.com/uploads/basket-cart-icon-27.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Cart{
+    position: absolute;
+    border-radius: 10px;
+    top: 0px;
+    right: -500px;
+    /* display: none; */
+    background-color: transparent;
+
+    .close-cart{
+        padding: 10px;
+    }
+  
+    ul{
+      max-width: 400px;
+      max-height: 100vh;
+      list-style: none;
+      background-color: rgb(49, 77, 94);
+      border: 1px solid white;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      overflow-y: auto;
+
+      
+
+      li:nth-child(1){
+        background-color: transparent;
+        text-align: right;
+        border: 0;
+      }
+  
+      li{
+        background-color: rgb(43, 43, 43);
+        background-color: rgba(22, 22, 22, 0.839);
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 20px 10px;
+        margin-bottom: 10px;
+        position: relative;
+
+        .delete-btn{
+            position: absolute;
+            top: 8px;
+            right: 10px;
+            background-color: transparent;
+            border: 0;
+            color: white;
+          }
+      }
+  
+      h2{
+        font-family: "Anton", sans-serif;
+        letter-spacing: 2px;
+        font-size: 1.3rem;
+        color: rgba(208, 26, 26, 0.497);
+        margin-bottom: 5px;
+      }
+  
+      p{
+        text-align: right;
+        margin-top: 10px;
+      }
+  
+    }
+  }
+  
+  .show-cart{
+    animation: cart .5s ease-out forwards;
+  }
+  
+  
+  @keyframes cart {
+    from{transform: translateX(0px);}
+    to{transform: translateX(-500px);}
+  }

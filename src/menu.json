@@ -1,0 +1,200 @@
+{
+  "toppings": [
+    {
+      "name": "ketchup",
+      "price": 50
+    },
+    {
+      "name": "pepperoni",
+      "price": 20
+    },
+    {
+      "name": "jalapeños",
+      "price": 10
+    },
+    {
+      "name": "red onions",
+      "price": 10
+    },
+    {
+      "name": "sriracha drizzle",
+      "price": 10
+    },
+    {
+      "name": "pesto sauce",
+      "price": 10
+    },
+    {
+      "name": "spinach",
+      "price": 10
+    },
+    {
+      "name": "artichoke hearts",
+      "price": 10
+    },
+    {
+      "name": "grilled chicken",
+      "price": 30
+    },
+    {
+      "name": "ham",
+      "price": 10
+    },
+    {
+      "name": "pineapple",
+      "price": 10
+    },
+    {
+      "name": "bacon",
+      "price": 10
+    },
+    {
+      "name": "BBQ sauce swirl",
+      "price": 10
+    },
+    {
+      "name": "mushrooms",
+      "price": 10
+    },
+    {
+      "name": "bell peppers",
+      "price": 10
+    },
+    {
+      "name": "black olives",
+      "price": 10
+    },
+    {
+      "name": "tomatoes",
+      "price": 10
+    },
+    {
+      "name": "extra cheese",
+      "price": 10
+    },
+    {
+      "name": "Spicy Italian sausage",
+      "price": 10
+    },
+    {
+      "name": "banana peppers",
+      "price": 10
+    },
+    {
+      "name": "red pepper flakes",
+      "price": 10
+    },
+    {
+      "name": "Mushroom medley",
+      "price": 10
+    },
+    {
+      "name": "truffle oil drizzle",
+      "price": 10
+    }
+  ],
+  "priceList": {
+    "base": 300
+  },
+  "pizzas": [
+    {
+      "name": "Mario's Fire Flower Feast",
+      "topping": [
+        {
+          "name": "pepperoni"
+        },
+        {
+          "name": "jalapeños"
+        },
+        {
+          "name": "red onions"
+        },
+        {
+          "name": "sriracha drizzle"
+        }
+      ]
+    },
+    {
+      "name": "Luigi's Green Pipe Special",
+      "topping": [
+        {
+          "name": "pesto sauce"
+        },
+        {
+          "name": "spinach"
+        },
+        {
+          "name": "artichoke hearts"
+        },
+        {
+          "name": "grilled chicken"
+        }
+      ]
+    },
+    {
+      "name": "Princess Peach's Royal Hawaiian",
+      "topping": [
+        {
+          "name": "ham"
+        },
+        {
+          "name": "pineapple"
+        },
+        {
+          "name": "bacon"
+        },
+        {
+          "name": "BBQ sauce swirl"
+        }
+      ]
+    },
+    {
+      "name": "Yoshi's Veggie Volcano",
+      "topping": [
+        {
+          "name": "mushrooms"
+        },
+        {
+          "name": "bell peppers"
+        },
+        {
+          "name": "black olives"
+        },
+        {
+          "name": "tomatoes"
+        },
+        {
+          "name": "extra cheese"
+        }
+      ]
+    },
+    {
+      "name": "Bowser's Spicy Inferno",
+      "topping": [
+        {
+          "name": "Spicy Italian sausage"
+        },
+        {
+          "name": "pepperoni"
+        },
+        {
+          "name": "banana peppers"
+        },
+        {
+          "name": "red pepper flakes"
+        }
+      ]
+    },
+    {
+      "name": "Toad's Mushroom Madness",
+      "topping": [
+        {
+          "name": "Mushroom medley"
+        },
+        {
+          "name": "truffle oil drizzle"
+        }
+      ]
+    }
+  ]
+}
